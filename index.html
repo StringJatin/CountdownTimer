@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="top"><h2>Routine starting in...</h2>
+        <p>Subheading here</p></div>
+        <div class="countdown-container">
+            <svg class="progress-ring" width="200" height="200">
+                <circle class="progress-ring-circle-base" cx="100" cy="100" r="90"></circle>
+                <circle class="progress-ring-circle-overlay" cx="100" cy="100" r="90"></circle>
+            </svg>
+            <div class="countdown-timer">
+                <span class="timer-minutes">00</span>:<span class="timer-seconds">00</span>
+            </div>
+
+        </div>
+
+        <div class="button-container">
+            <button id="add-10-sec" class="btn timer-button">
+                <i class="timer fas fa-plus"></i>10 sec </button>
+            <button id="skip" class="btn timer-button">
+                <i class="timer fas fa-forward-step"></i>Skip
+            </button>
+        </div>
+        <div class="cleaning-card">
+            <div class="part1">
+                <div class="part-1-1"><span id="big">Step 2</span><span id="small">/3</span></div>
+
+            </div>
+            <div class="part2">
+                <div class="cleaning-img"><img src="cleaning.jpeg" alt=""></div>
+                <div class="cleaning-heading">
+                    <h2>Cleansing</h2>
+                    <i class="timer fas fa-clock"></i> 60 sec
+                </div>
+                <div class="content">How to do</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
