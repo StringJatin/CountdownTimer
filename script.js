@@ -59,7 +59,7 @@ function startCountdown(minutes) {
         if (remainingTime < 0) {
             clearInterval(countdownInterval);
 
-            console.log('Countdown completed!');
+            console.log('Countdown is completed!');
         }
     };
 
